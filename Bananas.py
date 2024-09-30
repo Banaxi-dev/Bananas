@@ -15,7 +15,6 @@ def load_config():
         config['Config'] = {'Bananas': '1'}  
         with open(config_file, 'w') as configfile:
             config.write(configfile)
-        print("config.ini erstellt mit Standardwert: 1 Banane.")
 
 
     config.read(config_file)
